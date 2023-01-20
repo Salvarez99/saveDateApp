@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    
+    <string-array name="Meals" >
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+
+</resources>
