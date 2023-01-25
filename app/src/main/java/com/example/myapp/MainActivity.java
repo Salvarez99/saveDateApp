@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.O)
     public static String printDate() {
 
-        DateTimeFormatter date = DateTimeFormatter.ofPattern("\t\t\t\t\t\t\t\t\t\th:mm a \t\t\t\t\t\t\t\t\t\t\tMM/dd/yyyy ");
+        DateTimeFormatter date = DateTimeFormatter.ofPattern("\t\t\t\th:mm a \t\t\t\t\t\t\t\t\t\t\tMM/dd/yyyy ");
         LocalDateTime now = LocalDateTime.now();
 //        String log = date.format(now);
         return date.format(now);
